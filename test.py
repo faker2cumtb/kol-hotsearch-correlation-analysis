@@ -91,9 +91,6 @@ for i in range(len(label)):
 
         print()
 
-
-
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 import re
 from gensim import corpora, models, similarities
@@ -216,6 +213,7 @@ def tf_idf_word(DF):
 
 
 if __name__ == '__main__':
+    # 测试
     tf_idf_word(DF)
     # print (cosine_distance(np.array([0.1,0.2,0.3,0.4]),np.array([0.2,0.3,0.4,0.5])))
     # print([word for word in jieba.cut('亚运会闭幕式IKON')])
